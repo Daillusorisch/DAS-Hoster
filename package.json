@@ -1,0 +1,33 @@
+{
+  "name": "das",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.0.0-beta.0",
+    "@tauri-apps/plugin-shell": "^2.0.0-beta.0",
+    "@types/plotly.js": "^2.29.1",
+    "@types/plotly.js-dist-min": "^2.3.4",
+    "plotly.js": "^2.29.1",
+    "plotly.js-dist-min": "^2.29.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-plotly.js": "^2.6.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0-beta.0",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@types/react-plotly.js": "^2.6.3",
+    "@vitejs/plugin-react": "^4.2.1",
+    "internal-ip": "^7.0.0",
+    "typescript": "^5.0.2",
+    "vite": "^5.0.0"
+  }
+}
